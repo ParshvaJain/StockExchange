@@ -20,7 +20,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-//@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins ="https://reactapp--service.herokuapp.com")
 @RestController
 @RequestMapping(value = "/stockexchange")
 public class StockExchangeController {
